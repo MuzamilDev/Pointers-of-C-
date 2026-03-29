@@ -7,9 +7,9 @@ int main()
     float length;
 
     float *pointer;
-    pointer=&length;
+    pointer= &length; //Address
 
-    cout<<"Enter the length of foot "<<endl;
+    cout<<"Enter the length of Foot "<<endl;
     cin>>length;
 
     cout<<"The Length of Foot is "<<*pointer<<endl;
